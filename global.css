@@ -1,0 +1,30 @@
+:root {
+    /* Typography */
+    --h1-large: 2.25rem;
+    --h1-small: 1.125rem;
+    --h2-large: 1.375rem;
+    --p: 1rem;
+    --p-small: 0.75rem;
+
+    /* Colour "Palette" */
+    --bg-color: #ffffff;
+    --card-color: #f2f2f2;
+    --text-black: #000000;
+    --text-gray: #646464;
+    --text-white: #ffffff;
+    --header-color: #1d1d1d;
+    --color-accent: #af5757;
+
+    /* Font Families */
+    --font-family-title: Verdana, Arial, Helvetica, sans-serif;
+    --font-family-content: Arial, Helvetica, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+}

@@ -1,0 +1,21 @@
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+article {
+    background-color: var(--card-color);
+    box-shadow: 0 2px 5px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+article > * {
+    padding: 20px;
+}

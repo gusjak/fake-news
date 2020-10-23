@@ -1,0 +1,7 @@
+header {
+    width: 100%;
+    top: 0;
+    background-color: var(--header-color);
+    padding: 12px;
+    margin-bottom: 12px;
+}
