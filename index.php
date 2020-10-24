@@ -4,8 +4,8 @@
 // keep us much logic out of the HTML as possible. Put the PHP logic in the top
 // of the files containing HTML or even better; in another PHP file altogether.
 
-// require __DIR__ . '/data.php';
-// require __DIR__ . '/functions.php';
+require __DIR__ . '/data.php';
+require __DIR__ . '/functions.php';
 
 ?>
 
@@ -27,36 +27,91 @@
 </header>
 
 <body>
+
     <main>
-        <article>
+        <article class="item-1">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <ul>
+                <li>Author</li>
+                <li>20/10-2010</li>
+            </ul>
             <h2>Title 1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
-            <span>Author 1 - 20/10-2010 - 3782 Likes</span>
+            <span>3782 Likes</span>
         </article>
-        <article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <ul>
+                <li>Author</li>
+                <li>20/10-2010</li>
+            </ul>
             <h2>Title 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
-            <span>Author 2 - 20/10-2010 - 378 Likes</span>
+            <span>3782 Likes</span>
         </article>
-        <article>
-            <h2>Title 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
-            <span>Author 1 - 20/10-2010 - 3782 Likes</span>
-        </article>
-        <article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 3</span>
+            <span>Published: 20/10-2010</span>
             <h2>Title 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
-            <span>Author 2 - 20/10-2010 - 378 Likes</span>
+            <span>3782 Likes</span>
         </article>
-        <article>
-            <h2>Title 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
-            <span>Author 1 - 20/10-2010 - 3782 Likes</span>
-        </article>
-        <article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
             <h2>Title 2</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
-            <span>Author 2 - 20/10-2010 - 378 Likes</span>
+            <span>3782 Likes</span>
+        </article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
+            <span>3782 Likes</span>
+        </article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
+            <span>3782 Likes</span>
+        </article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
+            <span>3782 Likes</span>
+        </article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
+            <span>3782 Likes</span>
+        </article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
+            <span>3782 Likes</span>
+        </article>
+        <article class="item">
+            <div class="thumbnail" style="background-image: url(https://images.unsplash.com/photo-1572657018299-fcb6280c9356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1629&q=80)"></div>
+            <span>Author 2</span>
+            <span>Published: 20/10-2010</span>
+            <h2>Title 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea repellendus omnis rerum nemo, eos consectetur esse nihil quod non deleniti minus debitis necessitatibus aspernatur suscipit ipsa optio. Maiores minima dolorem amet quos veniam eius dolore minus quas nam vero.</p>
+            <span>3782 Likes</span>
         </article>
     </main>
 </body>

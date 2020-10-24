@@ -30,6 +30,7 @@ $authors = [
 
 $newsItems = [
     [
+        'image' => '',
         'title' => 'Title 1',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum placeat praesentium maxime ipsum amet? Voluptas dolores voluptates ratione quae.',
         'author' => $authors[0]['name'],
@@ -37,6 +38,7 @@ $newsItems = [
         'likes' => 190,
     ],
     [
+        'image' => '',
         'title' => 'Title 2',
         'content' => 'Voluptas dolores voluptates ratione quae. Lorem ipsum dolor sit amet.',
         'author' => $authors[1]['name'],
@@ -44,6 +46,7 @@ $newsItems = [
         'likes' => 28,
     ],
     [
+        'image' => '',
         'title' => 'Title 3',
         'content' => 'Voluptas dolores voluptates ratione quae. Lorem ipsum dolor sit amet.',
         'author' => $authors[2]['name'],
@@ -51,6 +54,7 @@ $newsItems = [
         'likes' => 120,
     ],
     [
+        'image' => '',
         'title' => 'Title 4',
         'content' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptates mollitia ipsam beatae corporis deleniti minus, ducimus nisi in libero consectetur alias ad sit culpa voluptas iste consequuntur! Libero, quisquam?',
         'author' => $authors[3]['name'],
@@ -65,6 +69,7 @@ $newsItems = [
         'likes' => 304,
     ],
     [
+        'image' => '',
         'title' => 'Title 6',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum placeat praesentium maxime ipsum amet? Voluptas dolores voluptates ratione quae.',
         'author' => $authors[0]['name'],
@@ -79,6 +84,7 @@ $newsItems = [
         'likes' => 28,
     ],
     [
+        'image' => '',
         'title' => 'Title 8',
         'content' => 'Voluptas dolores voluptates ratione quae. Lorem ipsum dolor sit amet.',
         'author' => $authors[2]['name'],
@@ -86,6 +92,7 @@ $newsItems = [
         'likes' => 120,
     ],
     [
+        'image' => '',
         'title' => 'Title 9',
         'content' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptates mollitia ipsam beatae corporis deleniti minus, ducimus nisi in libero consectetur alias ad sit culpa voluptas iste consequuntur! Libero, quisquam?',
         'author' => $authors[3]['name'],
@@ -93,6 +100,7 @@ $newsItems = [
         'likes' => 92,
     ],
     [
+        'image' => '',
         'title' => 'Title 10',
         'content' => 'Voluptatem alias neque, dolores, doloremque ut corporis eligendi non voluptate, repellendus officia quidem cum?',
         'author' => $authors[4]['name'],
@@ -101,10 +109,14 @@ $newsItems = [
     ],
 ];
 
-// die(var_dump($authors));
 
+/* Testing ground for arrays */
+
+
+// die(var_dump($authors));
 // die(var_dump($newsItems));
 
+/*
 echo $newsItems[0]['title'] . ' - ' . date("d/m-Y", $newsItems[0]['datePublished']) . "\n";
 echo $newsItems[1]['title'] . ' - ' . date("d/m-Y", $newsItems[1]['datePublished']) . "\n";
 echo $newsItems[2]['title'] . ' - ' . date("d/m-Y", $newsItems[2]['datePublished']) . "\n";
@@ -115,9 +127,9 @@ echo $newsItems[6]['title'] . ' - ' . date("d/m-Y", $newsItems[6]['datePublished
 echo $newsItems[7]['title'] . ' - ' . date("d/m-Y", $newsItems[7]['datePublished']) . "\n";
 echo $newsItems[8]['title'] . ' - ' . date("d/m-Y", $newsItems[8]['datePublished']) . "\n";
 echo $newsItems[9]['title'] . ' - ' . date("d/m-Y", $newsItems[9]['datePublished']) . "\n";
+*/
 
-echo "\n";
-
+/*
 foreach ($newsItems as $newsItem) {
     echo $newsItem['title'] . "\n";
     echo $newsItem['content'] . "\n";
@@ -125,3 +137,4 @@ foreach ($newsItems as $newsItem) {
     echo 'Published: ' . date("d/m-Y", $newsItem['datePublished']) . ' - ' . $newsItem['likes'] . ' likes ' . "\n";
     echo "\n";
 }
+*/

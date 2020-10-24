@@ -9,13 +9,36 @@ main {
 
 article {
     background-color: var(--card-color);
-    box-shadow: 0 2px 5px;
+    box-shadow: 0 3px 6px var(--shadow-color);
     text-decoration: none;
     display: flex;
     flex-direction: column;
     position: relative;
+    top: 0;
 }
 
 article > * {
-    padding: 20px;
+    padding: 10px;
+}
+
+article .thumbnail {
+    padding: 0;
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item-1 {
+        grid-column: 1 / span 3;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
