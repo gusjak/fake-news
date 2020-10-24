@@ -3,5 +3,5 @@ header {
     top: 0;
     background-color: var(--header-color);
     padding: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 2rem;
 }

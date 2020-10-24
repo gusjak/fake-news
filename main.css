@@ -21,19 +21,23 @@ article > * {
     padding: 10px;
 }
 
-article .thumbnail {
+/*article .thumbnail {
     padding: 0;
     padding-bottom: 60%;
     background-size: cover;
     background-position: center center;
-}
+}*/
 
-@media screen and (min-width: 700px) {
+.responsive {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+  }
+
+@media screen and (min-width: 768px) {
     main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .item-1 {
-        grid-column: 1 / span 3;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
