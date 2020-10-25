@@ -34,9 +34,9 @@ p {
 span {
     font-family: var(--font-family-content);
     font-size: var(--p-small);
-    font-weight: 400;
-    color: var(--text-gray);
-    letter-spacing: .25rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    letter-spacing: .05rem;
 }
 
 ul {

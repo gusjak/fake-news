@@ -29,6 +29,7 @@ require __DIR__ . '/functions.php';
 <body>
 
     <main>
+        <?php usort($newsItems, 'sortByDate'); ?>
         <?php foreach ($newsItems as $newsItem) : ?>
             <article class="item-1">
                 <img src="<?php echo $newsItem['image'] ?>" class="responsive" alt="article image">
