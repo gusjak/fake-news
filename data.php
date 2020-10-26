@@ -32,14 +32,14 @@ $newsItems = [
     [
         'image' => 'https://images.unsplash.com/photo-1580868065114-11da5e9401ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
         'title' => 'Apple will only get better, I believe Android sucks',
-        'content' => 'Steve Jobs was a genius, in the beginning gorgeous in spite of battery drain, due to CrackBerry. Siri is better than TellMe and Google Voice put together, when Steve Jobs was a genius, in the end Flash sucks, eventually iPhone rip-offs as a result Apple will only get better generally gorgeous since profit.',
+        'content' => 'Steve Jobs was a genius, in the beginning gorgeous in spite of battery drain, due to CrackBerry. Siri is better than TellMe and Google Voice put together, when Steve Jobs was a genius, in the end Flash sucks, eventually iPhone rip-offs as a result.',
         'author' => $authors[0]['name'],
-        'datePublished' => strtotime('20 October 2010'),
+        'datePublished' => strtotime('20 October 2013'),
         'likes' => 190,
     ],
     [
         'image' => 'https://images.unsplash.com/photo-1560790166-3b36b88098f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-        'title' => 'Jesus pad, during Android is better because it’s open',
+        'title' => 'Jesus pad, during Android is better because it’s open air Jesus',
         'content' => 'Hypnotised, so that notifications are way better on Android but also marketing, after you suck personally it didn’t even have copy and paste, for instance toys generally moron, such a typical fanboy so as to Android sells more phones.',
         'author' => $authors[1]['name'],
         'datePublished' => strtotime('30 June 2020'),
@@ -63,18 +63,18 @@ $newsItems = [
     ],
     [
         'image' => 'https://images.unsplash.com/photo-1467007849282-42dad96c2312?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-        'title' => 'Could be the best Android phone, finally is might be better than the iPhone',
+        'title' => 'Finally is might be better than the iPhone',
         'content' => 'It works reasonably well I would say that battery life isn’t great but not too bad either, consequently in short, a great phone, on the whole better than most of its competitors. But generally it feels a little slapdash, in spite that it can’t hold a candle',
         'author' => $authors[4]['name'],
-        'datePublished' => strtotime('03 January 2006'),
+        'datePublished' => strtotime('03 January 2014'),
         'likes' => 422,
     ],
     [
         'image' => 'https://images.unsplash.com/photo-1500301802642-622bee979621?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
         'title' => 'BlackBerry, in the beginning delay in getting Ice Cream Sandwich',
-        'content' => 'Steve Jobs was a genius once delay in getting Ice Cream Sandwich, in order that so-called “iPad killer” besides Flash sucks after best design, generally gorgeous but Android is fragmented nevertheless profit, what Jony Ive’s incredible design thus profit.',
+        'content' => 'In order that so-called “iPad killer” besides Flash sucks after best design, generally gorgeous but Android is fragmented nevertheless profit, what Jony Ive’s incredible design thus profit.',
         'author' => $authors[0]['name'],
-        'datePublished' => strtotime('13 March 2014'),
+        'datePublished' => strtotime('13 March 2008'),
         'likes' => 820,
     ],
     [
@@ -103,10 +103,10 @@ $newsItems = [
     ],
     [
         'image' => 'https://images.unsplash.com/photo-1599278217978-8d4ce9d6263e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-        'title' => 'Battery life isn’t great but not too bad either afterwards in short.',
+        'title' => 'Battery life isn’t great, but not too bad eitherin short.',
         'content' => 'Makes compromises, generally although it is well made, at last suits your needs next on the other hand, while battery life isn’t great but not too bad either immediately better than some but not as good as others so might be better.',
         'author' => $authors[4]['name'],
-        'datePublished' => strtotime('19 August 2008'),
+        'datePublished' => strtotime('19 August 2006'),
         'likes' => 304,
     ],
 ];

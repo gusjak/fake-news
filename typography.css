@@ -53,7 +53,7 @@ li {
     font-size: var(--p-small);
     font-weight: 400;
     color: var(--text-gray);
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
 }
 
 a {
@@ -87,4 +87,13 @@ a {
     color: var(--color-accent);
     letter-spacing: .05rem;
     pointer-events: 0;
+  }
+
+  .link-3 {
+    font-family: var(--font-family-title);
+    font-size: var(--h2-large);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--text-black);
+    margin-bottom: 0;
   }

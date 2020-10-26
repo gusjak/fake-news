@@ -29,15 +29,15 @@ require __DIR__ . '/functions.php';
 <body>
 
     <main>
-        <?php usort($newsItems, 'sortByDate'); ?>
+        <?php usort($newsItems, 'sortByDateNewest'); ?>
         <?php foreach ($newsItems as $newsItem) : ?>
             <article class="item">
                 <img src="<?php echo $newsItem['image'] ?>" class="responsive" alt="article image">
                 <ul>
                     <li><a class="link-2" href="#"><?php echo $newsItem['author'] ?></a></li>
-                    <li><?php echo date("d/m-Y", $newsItem['datePublished']) ?></li>
+                    <li><?php echo date("d M Y", $newsItem['datePublished']) ?></li>
                 </ul>
-                <h2><?php echo $newsItem['title'] ?></h2>
+                <h2><a class="link-3" href="#"><?php echo $newsItem['title'] ?></a></h2>
                 <p><?php echo $newsItem['content'] ?></p>
                 <span><?php echo $newsItem['likes'] ?> <a class="link-1" href=""> Likes</a></span>
             </article>

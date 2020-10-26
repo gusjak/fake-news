@@ -31,5 +31,20 @@ article > * {
 @media screen and (min-width: 768px) {
     main {
         grid-template-columns: 1fr 1fr;
+        width: 85%;
+        grid-gap: 2rem;
+    }
+    .link-3 {
+        font-size: var(--h2-small);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 85%;
+        grid-gap: 2.5rem;
+    }
+    .link-3 {
+        font-size: var(--h2-small);
     }
 }
