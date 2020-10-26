@@ -28,6 +28,7 @@ p {
     line-height: 2;
     color: var(--text-black);
     flex: 1;
+    letter-spacing: .05rem;
     margin-top: 0;
 }
 
@@ -62,6 +63,7 @@ a {
     color: var(--text-gray);
     letter-spacing: .1rem;
     text-decoration: none;
+    pointer-events: 0;
     
     background-image: linear-gradient(180deg, transparent 80%, var(--color-accent) 0);
     background-repeat: no-repeat;
@@ -71,4 +73,18 @@ a {
   
   a:hover {
     background-size: 100% 100%;
+  }
+
+  .link-1 {
+      font-weight: 600;
+      pointer-events: 0;
+  }
+
+  .link-2 {
+    font-family: var(--font-family-content);
+    font-size: var(--p-small);
+    font-weight: 600;
+    color: var(--color-accent);
+    letter-spacing: .05rem;
+    pointer-events: 0;
   }
