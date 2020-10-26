@@ -1,6 +1,6 @@
 # Fake News Assignment
 
-![Alt Text](https://media.giphy.com/media/xUNemVaUZFSgHxvQXK/source.gif)
+![ohmygod](https://media.giphy.com/media/xUNemVaUZFSgHxvQXK/giphy.gif)
 
 ## Assignment
 
