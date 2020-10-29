@@ -51,15 +51,15 @@ ul {
 li {
     font-family: var(--font-family-content);
     font-size: var(--p-small);
-    font-weight: 400;
+    font-weight: 600;
     color: var(--text-gray);
-    letter-spacing: .15rem;
+    letter-spacing: .1rem;
 }
 
 a {
     font-family: var(--font-family-content);
     font-size: var(--p-small);
-    font-weight: 400;
+    font-weight: 600;
     color: var(--text-gray);
     letter-spacing: .1rem;
     text-decoration: none;

@@ -56,7 +56,7 @@ $newsItems = [
     [
         'image' => 'https://images.unsplash.com/photo-1568378780196-a9a0444a9151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
         'title' => 'A squirrel dying in front of your house may be more relevant to your interests',
-        'content' => 'Yeah so if you ever need info about anyone at Harvard, just ask. I have over 4,000 emails, pictures, addresses, SNS. They "trust me',
+        'content' => '"After a tumultuous last year, my hope for this challenge is to get out and talk to more people about how they\'re living, working and thinking about the future," Zuckerberg said in his Facebook post announcing his annual challenge.',
         'author' => $authors[3]['name'],
         'datePublished' => strtotime('14 November 2019'),
         'likes' => 92,

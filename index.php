@@ -34,7 +34,7 @@ require __DIR__ . '/functions.php';
             <article class="item">
                 <img src="<?php echo $newsItem['image'] ?>" class="responsive" alt="article image">
                 <ul>
-                    <li><a class="link-2" href="#"><?php echo $newsItem['author'] ?></a></li>
+                    <li>BY <a class="link-2" href="#"><?php echo $newsItem['author'] ?></a></li>
                     <li><?php echo date("d M Y", $newsItem['datePublished']) ?></li>
                 </ul>
                 <h2><a class="link-3" href="#"><?php echo $newsItem['title'] ?></a></h2>

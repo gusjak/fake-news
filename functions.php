@@ -8,7 +8,7 @@ declare(strict_types=1);
 
 
 /**
- * Date sorting function
+ * Date/Like sorting function parameters
  * 
  * @param array $a 
  * @param array $b 
@@ -16,19 +16,19 @@ declare(strict_types=1);
  * 
  */
 
-// Sorting function to display the latest article first.
+// Function to display the latest article first.
 function sortByDateNewest(array $a, array $b): int
 {
     return $b['datePublished'] - $a['datePublished'];
 };
 
-// Sorting function to display the earliest posted article first. Might use at a later stage.
+// Function to display the earliest posted article first. Might use at a later stage.
 function sortByDateEarliest(array $a, array $b): int
 {
     return $a['datePublished'] - $b['datePublished'];
 };
 
-// Sorting function to displayed highest liked article first. Might use at a later stage.
+// Function to displayed highest liked article first. Might use at a later stage.
 function sortByLikes(array $a, array $b): int
 {
     return $b['likes'] - $b['likes'];
