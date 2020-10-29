@@ -11,6 +11,7 @@ article {
     background-color: var(--card-color);
     box-shadow: 0 3px 6px var(--shadow-color);
     text-decoration: none;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -21,11 +22,10 @@ article > * {
     padding: 10px;
 }
 
-.responsive {
-    object-fit: cover;
+article .image {
+    padding-bottom: 60%;
     background-size: cover;
     background-position: center center;
-    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,8 +41,10 @@ article > * {
 
 @media screen and (min-width: 1200px) {
     main {
-        width: 85%;
-        grid-gap: 2.5rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .item:nth-child(1) {
+        grid-column: span 3;
     }
     .link-3 {
         font-size: var(--h2-small);

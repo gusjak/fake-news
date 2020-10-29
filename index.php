@@ -32,7 +32,7 @@ require __DIR__ . '/functions.php';
         <?php usort($newsItems, 'sortByDateNewest'); ?>
         <?php foreach ($newsItems as $newsItem) : ?>
             <article class="item">
-                <img src="<?php echo $newsItem['image'] ?>" class="responsive" alt="article image">
+                <div class="image" style="background-image: url(<?php echo $newsItem['image'] ?>);"></div>
                 <ul>
                     <li>BY <a class="link-2" href="#"><?php echo $newsItem['author'] ?></a></li>
                     <li><?php echo date("d M Y", $newsItem['datePublished']) ?></li>
