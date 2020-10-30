@@ -1,0 +1,15 @@
+.like-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .like-button i {
+    color: var(--header-color);
+    transition: fill .4s ease-out;
+}
+
+  .like-button.active i {   
+    color: var(--color-accent)
+}

@@ -16,10 +16,13 @@ require __DIR__ . '/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fake News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/global.css">
     <link rel="stylesheet" href="/typography.css">
     <link rel="stylesheet" href="/header.css">
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/links.css">
+    <link rel="stylesheet" href="/button.css">
 </head>
 
 <header>
@@ -34,19 +37,25 @@ require __DIR__ . '/functions.php';
             <article class="item">
                 <div class="image" style="background-image: url(<?php echo $newsItem['image'] ?>);"></div>
                 <ul>
-                    <li>BY <a class="link-2" href="#"><?php echo $newsItem['author'] ?></a></li>
+                    <li>BY <a class="link-1" href="#"><?php echo $newsItem['author'] ?></a></li>
                     <li><?php echo date("d M Y", $newsItem['datePublished']) ?></li>
                 </ul>
-                <h2><a class="link-3" href="#"><?php echo $newsItem['title'] ?></a></h2>
+                <h2><a class="link-2" href="#"><?php echo $newsItem['title'] ?></a></h2>
+                <br>
                 <p><?php echo $newsItem['content'] ?></p>
-                <span><?php echo $newsItem['likes'] ?> <a class="link-1" href=""> Likes</a></span>
+                <span>
+                    <?php echo $newsItem['likes'] ?>
+                    <a href="#" class="like-button" onclick="return false;"> <i class="fa fa-thumbs-up fa-lg"></i>
+                    </a>
+                </span>
             </article>
         <?php endforeach; ?>
     </main>
 </body>
 
 <footer>
-
+    <!-- Nothing to see here except emptiness -->
 </footer>
+<script src="main.js"></script>
 
 </html>

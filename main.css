@@ -46,7 +46,10 @@ article .image {
     .item:nth-child(1) {
         grid-column: span 3;
     }
-    .link-3 {
+    .item:nth-child(1) p {
+        padding-right: 2rem;
+    }
+    .link-2 {
         font-size: var(--h2-small);
     }
 }
