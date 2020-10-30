@@ -37,17 +37,16 @@ require __DIR__ . '/functions.php';
             <article class="item">
                 <div class="image" style="background-image: url(<?php echo $newsItem['image'] ?>);"></div>
                 <ul>
-                    <li>BY <a class="link-1" href="#"><?php echo $newsItem['author'] ?></a></li>
+                    <li>By <a href="#" class="link-1" onclick="return false;"><?php echo $newsItem['author'] ?></a></li>
                     <li><?php echo date("d M Y", $newsItem['datePublished']) ?></li>
                 </ul>
-                <h2><a class="link-2" href="#"><?php echo $newsItem['title'] ?></a></h2>
+                <h2><a href="#" class="link-2" onclick="return false;"><?php echo $newsItem['title'] ?></a></h2>
                 <br>
                 <p><?php echo $newsItem['content'] ?></p>
-                <span>
-                    <?php echo $newsItem['likes'] ?>
-                    <a href="#" class="like-button" onclick="return false;"> <i class="fa fa-thumbs-up fa-lg"></i>
-                    </a>
-                </span>
+                <ul>
+                    <li><span><?php echo $newsItem['likes'] ?></span> People liked this</li>
+                    <a href="#" class="like-button" onclick="return false;"> <i class="fa fa-heart fa-lg"></i></a>
+                </ul>
             </article>
         <?php endforeach; ?>
     </main>

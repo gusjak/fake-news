@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-  }
+}
 
   .like-button i {
     color: var(--header-color);
