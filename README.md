@@ -8,7 +8,7 @@ The assignment is to create a news feed using PHP, HTML and CSS. The news feed w
 
 ## Installation Guide
 
-1. To be able to view this webpage, clone this repository through the terminal
+1. To be able to view this webpage, clone this repository through the terminal.
 ```
 $ git clone https://github.com/gusjak/fake-news.git
 ```
@@ -27,17 +27,17 @@ localhost:8000/index.php
 
 ## Testers
 
-* Tester 1
-* Tester 2
+* Simon Lindstedt
+* Agnes Binett
 
-## Code Feedback
+## Code Review
 From **Erik White**
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Good with several CSS files. Feel very structured. If anything could be added here, it could be a folder for them all.
+2. Great idea with a function to find the most liked article! Even if not currently active.
+3. Functions overall looks short and clean.
+4. Noticed a minor (maybe?) mistake on article "Battery life...". Word 'Eitherin' should maybe be 'Either in'?
+5. Overall I like the look of the site and it feels well put together, and nice extra with the JS.
 
 ## License
 
